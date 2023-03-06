@@ -1,0 +1,26 @@
+@use 'src/styles/colors';
+
+.character-detail {
+  .image-container {
+    padding-bottom: 100%;
+    background: #eee;
+    height: 0;
+    width: 200px;
+    position: relative;
+  }
+
+  .char-image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+  }
+
+  h3 {
+    color: darken(colors.$font-color, 33%);
+  }
+
+  p {
+    color: colors.$font-color;
+  }
+}

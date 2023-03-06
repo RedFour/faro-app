@@ -1,0 +1,12 @@
+@use 'src/styles/colors';
+
+.character-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+
+  p {
+    color: colors.$font-color;
+  }
+}

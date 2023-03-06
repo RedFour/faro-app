@@ -1,0 +1,39 @@
+@use 'src/styles/colors';
+
+.carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    color: colors.$font-color;
+  }
+
+  .controls-row {
+    display: flex;
+    gap: 20px;
+  }
+
+  button {
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: rgb(12, 126, 160);
+    color: white;
+  }
+
+  .app-checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: colors.$font-color;
+    input[type='checkbox'] {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}

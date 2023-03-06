@@ -1,0 +1,11 @@
+@use 'src/styles/colors';
+
+.character-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  h2 {
+    color: darken(colors.$font-color, 33%);
+  }
+}
